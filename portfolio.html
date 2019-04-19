@@ -14,35 +14,49 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Adam Grise</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header class="container-fluid, ag-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light, no-box" style="background-color:white">
+            <div class="container">
+                <a class="navbar-brand, ag-title" href="index.html">
+                    <h1>Adam Grise</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto mt-=2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-right ml-auto mt-=2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <main-content>
-
+        <div class="container">
+            <div class="main-content">
+                <h2>Portfolio</h2>
+                <hr class="col-xs-12" style="border-top: 1px solid #aaa">
+                <p>Portfolio stuff here.</p>
+            </div>
+        </div>
     </main-content>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md">© 2019 Adam Grise</div>
+            </div>
+        </div>
     </footer>
 </body>
 
