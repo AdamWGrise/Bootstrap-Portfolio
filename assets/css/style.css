@@ -27,6 +27,10 @@ h2, h3 {
     padding-top:12px;
 }
 
+.ag-title:hover {
+    text-decoration:none;
+}
+
 .no-box {
     padding:0;
     border:none;
